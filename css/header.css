@@ -1,0 +1,387 @@
+@-webkit-keyframes glitch1 {
+  0% {
+    clip: rect(16px, 200px, 14px, 0px);
+  }
+  5% {
+    clip: rect(4px, 200px, 5px, 0px);
+  }
+  10% {
+    clip: rect(4px, 200px, 12px, 0px);
+  }
+  15% {
+    clip: rect(3px, 200px, 4px, 0px);
+  }
+  20% {
+    clip: rect(12px, 200px, 6px, 0px);
+  }
+  25% {
+    clip: rect(9px, 200px, 18px, 0px);
+  }
+  30% {
+    clip: rect(15px, 200px, 10px, 0px);
+  }
+  35% {
+    clip: rect(11px, 200px, 16px, 0px);
+  }
+  40% {
+    clip: rect(18px, 200px, 7px, 0px);
+  }
+  45% {
+    clip: rect(5px, 200px, 7px, 0px);
+  }
+  50% {
+    clip: rect(9px, 200px, 16px, 0px);
+  }
+  55% {
+    clip: rect(13px, 200px, 18px, 0px);
+  }
+  60% {
+    clip: rect(16px, 200px, 5px, 0px);
+  }
+  65% {
+    clip: rect(7px, 200px, 3px, 0px);
+  }
+  70% {
+    clip: rect(7px, 200px, 15px, 0px);
+  }
+  75% {
+    clip: rect(17px, 200px, 19px, 0px);
+  }
+  80% {
+    clip: rect(15px, 200px, 7px, 0px);
+  }
+  85% {
+    clip: rect(14px, 200px, 9px, 0px);
+  }
+  90% {
+    clip: rect(18px, 200px, 4px, 0px);
+  }
+  95% {
+    clip: rect(8px, 200px, 17px, 0px);
+  }
+  100% {
+    clip: rect(20px, 200px, 6px, 0px);
+  }
+}
+
+@keyframes glitch1 {
+  0% {
+    clip: rect(16px, 200px, 14px, 0px);
+  }
+  5% {
+    clip: rect(4px, 200px, 5px, 0px);
+  }
+  10% {
+    clip: rect(4px, 200px, 12px, 0px);
+  }
+  15% {
+    clip: rect(3px, 200px, 4px, 0px);
+  }
+  20% {
+    clip: rect(12px, 200px, 6px, 0px);
+  }
+  25% {
+    clip: rect(9px, 200px, 18px, 0px);
+  }
+  30% {
+    clip: rect(15px, 200px, 10px, 0px);
+  }
+  35% {
+    clip: rect(11px, 200px, 16px, 0px);
+  }
+  40% {
+    clip: rect(18px, 200px, 7px, 0px);
+  }
+  45% {
+    clip: rect(5px, 200px, 7px, 0px);
+  }
+  50% {
+    clip: rect(9px, 200px, 16px, 0px);
+  }
+  55% {
+    clip: rect(13px, 200px, 18px, 0px);
+  }
+  60% {
+    clip: rect(16px, 200px, 5px, 0px);
+  }
+  65% {
+    clip: rect(7px, 200px, 3px, 0px);
+  }
+  70% {
+    clip: rect(7px, 200px, 15px, 0px);
+  }
+  75% {
+    clip: rect(17px, 200px, 19px, 0px);
+  }
+  80% {
+    clip: rect(15px, 200px, 7px, 0px);
+  }
+  85% {
+    clip: rect(14px, 200px, 9px, 0px);
+  }
+  90% {
+    clip: rect(18px, 200px, 4px, 0px);
+  }
+  95% {
+    clip: rect(8px, 200px, 17px, 0px);
+  }
+  100% {
+    clip: rect(20px, 200px, 6px, 0px);
+  }
+}
+
+@-webkit-keyframes glitch2 {
+  0% {
+    clip: rect(14px, 200px, 2px, 0px);
+  }
+  5% {
+    clip: rect(8px, 200px, 14px, 0px);
+  }
+  10% {
+    clip: rect(11px, 200px, 1px, 0px);
+  }
+  15% {
+    clip: rect(14px, 200px, 11px, 0px);
+  }
+  20% {
+    clip: rect(18px, 200px, 14px, 0px);
+  }
+  25% {
+    clip: rect(11px, 200px, 18px, 0px);
+  }
+  30% {
+    clip: rect(17px, 200px, 11px, 0px);
+  }
+  35% {
+    clip: rect(3px, 200px, 20px, 0px);
+  }
+  40% {
+    clip: rect(11px, 200px, 19px, 0px);
+  }
+  45% {
+    clip: rect(10px, 200px, 5px, 0px);
+  }
+  50% {
+    clip: rect(20px, 200px, 10px, 0px);
+  }
+  55% {
+    clip: rect(18px, 200px, 7px, 0px);
+  }
+  60% {
+    clip: rect(1px, 200px, 16px, 0px);
+  }
+  65% {
+    clip: rect(12px, 200px, 13px, 0px);
+  }
+  70% {
+    clip: rect(15px, 200px, 3px, 0px);
+  }
+  75% {
+    clip: rect(10px, 200px, 11px, 0px);
+  }
+  80% {
+    clip: rect(7px, 200px, 12px, 0px);
+  }
+  85% {
+    clip: rect(10px, 200px, 5px, 0px);
+  }
+  90% {
+    clip: rect(5px, 200px, 12px, 0px);
+  }
+  95% {
+    clip: rect(17px, 200px, 14px, 0px);
+  }
+  100% {
+    clip: rect(1px, 200px, 7px, 0px);
+  }
+}
+
+@keyframes glitch2 {
+  0% {
+    clip: rect(14px, 200px, 2px, 0px);
+  }
+  5% {
+    clip: rect(8px, 200px, 14px, 0px);
+  }
+  10% {
+    clip: rect(11px, 200px, 1px, 0px);
+  }
+  15% {
+    clip: rect(14px, 200px, 11px, 0px);
+  }
+  20% {
+    clip: rect(18px, 200px, 14px, 0px);
+  }
+  25% {
+    clip: rect(11px, 200px, 18px, 0px);
+  }
+  30% {
+    clip: rect(17px, 200px, 11px, 0px);
+  }
+  35% {
+    clip: rect(3px, 200px, 20px, 0px);
+  }
+  40% {
+    clip: rect(11px, 200px, 19px, 0px);
+  }
+  45% {
+    clip: rect(10px, 200px, 5px, 0px);
+  }
+  50% {
+    clip: rect(20px, 200px, 10px, 0px);
+  }
+  55% {
+    clip: rect(18px, 200px, 7px, 0px);
+  }
+  60% {
+    clip: rect(1px, 200px, 16px, 0px);
+  }
+  65% {
+    clip: rect(12px, 200px, 13px, 0px);
+  }
+  70% {
+    clip: rect(15px, 200px, 3px, 0px);
+  }
+  75% {
+    clip: rect(10px, 200px, 11px, 0px);
+  }
+  80% {
+    clip: rect(7px, 200px, 12px, 0px);
+  }
+  85% {
+    clip: rect(10px, 200px, 5px, 0px);
+  }
+  90% {
+    clip: rect(5px, 200px, 12px, 0px);
+  }
+  95% {
+    clip: rect(17px, 200px, 14px, 0px);
+  }
+  100% {
+    clip: rect(1px, 200px, 7px, 0px);
+  }
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header p {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 6;
+  top: 8%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 1.6rem;
+}
+
+header p .logo {
+  position: relative;
+  color: #fff;
+  opacity: .5;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header p .logo:hover {
+  opacity: 1;
+}
+
+header p .logo:hover::before, header p .logo:hover::after {
+  opacity: 1;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+header p .logo::before, header p .logo::after {
+  color: white;
+  content: "Park Seong Jun";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 1px;
+  opacity: 0;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+header p .logo::before {
+  text-shadow: -1px 0 red;
+  animation: glitch1 2.5s linear 0s infinite alternate-reverse;
+}
+
+header p .logo::after {
+  text-shadow: -1px 0 blue;
+  animation: glitch1 2.5s linear 0s infinite alternate-reverse;
+}
+
+header p .my-page {
+  position: relative;
+  color: #fff;
+  opacity: .5;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+header p .my-page:hover {
+  opacity: 1;
+}
+
+header p .my-page:hover::before, header p .my-page:hover::after {
+  opacity: 1;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+header p .my-page::before, header p .my-page::after {
+  color: white;
+  content: "About";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 1px;
+  opacity: 0;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+header p .my-page::before {
+  text-shadow: -1px 0 red;
+  animation: glitch1 2.5s linear 0s infinite alternate-reverse;
+}
+
+header p .my-page::after {
+  text-shadow: -1px 0 blue;
+  animation: glitch1 2.5s linear 0s infinite alternate-reverse;
+}
+
+.about {
+  width: 0;
+  height: 0;
+  border-radius: 0 0 0 100%;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+}
+/*# sourceMappingURL=header.css.map */

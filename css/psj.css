@@ -1,0 +1,352 @@
+@font-face {
+  font-family: 'MapoDPPA';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TmonMonsori';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeoulHangangM';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeoulNamsanM';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UNPGothicKS';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/UNPGothicKS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-4Regular';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-2ExtraLight';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+}
+
+html {
+  font: 10px 'MapoDPPA';
+  color: #fff;
+}
+
+html,
+body {
+  background: #0f131b;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+main .home {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  background: #0f131b;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .home .container {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+}
+
+main .home .shadow-box,
+main .home .shadow-box2 {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+}
+
+main .intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #000;
+}
+
+main .intro .container {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+main .intro .container .project {
+  background: #0f131b;
+}
+
+main .intro .shadow-box {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+main .intro .shadow-box .project-shadow.first {
+  background: #0f131b;
+  opacity: .7;
+}
+
+main .intro .shadow-box2 {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+main .intro .shadow-box2 .project-shadow.second {
+  background: #0f131b;
+  opacity: .5;
+}
+
+.top-cover {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.footer {
+  width: 90%;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.6rem;
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.footer .scroll,
+.footer .email {
+  opacity: .5;
+}
+
+.footer .project-num {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 2rem;
+  opacity: .5;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.footer .project-num code {
+  font-family: 'MapoDPPA';
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  -webkit-transition: cubic-bezier(0.77, 0.11, 0.29, 0.88) 0.5s;
+  transition: cubic-bezier(0.77, 0.11, 0.29, 0.88) 0.5s;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  /* left: 50%;
+    top: 50%; */
+  -webkit-clip-path: circle(310px);
+          clip-path: circle(310px);
+  z-index: 3;
+  overflow: hidden;
+}
+
+.project-bg {
+  width: 1920px;
+  height: 937px;
+  font-size: 0;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.shadow-box,
+.shadow-box2 {
+  width: 620px;
+  height: 620px;
+  margin: -310px 0 0 -310px;
+  position: absolute;
+  left: 51%;
+  top: 51%;
+  -webkit-transition: cubic-bezier(0.77, 0.11, 0.29, 0.88) 0.5s;
+  transition: cubic-bezier(0.77, 0.11, 0.29, 0.88) 0.5s;
+}
+
+.shadow-box2 {
+  left: 49%;
+  top: 49%;
+}
+
+.project-shadow {
+  width: 620px;
+  height: 620px;
+  margin: -310px 0 0 -310px;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.project-shadow.first {
+  background: #000;
+  z-index: 2;
+  opacity: .4;
+}
+
+.project-shadow.second {
+  background: #000;
+  z-index: 1;
+  opacity: .2;
+}
+
+.middle-content {
+  display: inline-block;
+  position: relative;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.middle-content .title {
+  font-size: 16rem;
+  display: inline-block;
+  position: relative;
+  font-family: "TmonMonsori";
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: .5;
+}
+
+.intro .middle-content .title {
+  cursor: default;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  opacity: 0;
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.intro .middle-content .title::before, .intro .middle-content .title::after {
+  display: block;
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+.intro .middle-content .title::after {
+  content: 'Portfolio';
+  display: block;
+  bottom: 5%;
+  right: 0;
+}
+
+.home .middle-content .title {
+  cursor: pointer;
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+  -webkit-transform: rotate(3deg) translateY(20%);
+          transform: rotate(3deg) translateY(20%);
+  opacity: 0;
+}
+
+.home .middle-content .title::before, .home .middle-content .title::after {
+  display: block;
+  font-size: 1.5rem;
+  position: absolute;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.home .middle-content .title::before {
+  content: '2020';
+  display: block;
+  top: -5%;
+  left: 1.5%;
+}
+
+.home .middle-content .title::after {
+  content: 'Renewal';
+  display: block;
+  bottom: 5%;
+  right: 0;
+}
+
+.home .middle-content .title.active::before, .home .middle-content .title.active::after {
+  opacity: 0;
+}
+/*# sourceMappingURL=psj.css.map */
