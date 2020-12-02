@@ -2,7 +2,7 @@ $(function () {
     /* $(window).on('wheel', wheelEvent)
     $(window).off('wheel', wheelEvent) */
 
-    $('.home .project').css('background', 'url("../img/netflix_bg.jpg") no-repeat center / 1920px 937px');
+    $('.home .project').css('background', 'url("img/netflix_bg.jpg") no-repeat center / 1920px 937px');
 
     var pageIdx = 1;
 
@@ -56,15 +56,15 @@ $(function () {
 
         setTimeout(function () {
             if (pageIdx == 1) {
-                $('.home .project').css('background', 'url("../img/netflix_bg.jpg") no-repeat center / 1920px 937px');
+                $('.home .project').css('background', 'url("img/netflix_bg.jpg") no-repeat center / 1920px 937px');
                 $('.home .project-shadow').css({
                     background: '#000'
                 });
                 $('.home .title').html('NETFLIX');
             } else {
-                $('.home .project').css('background', 'url("../img/bdo_bg.jpg") no-repeat center / 1920px 937px');
+                $('.home .project').css('background', 'url("img/bdo_bg.jpg") no-repeat center / 1920px 937px');
                 $('.home .project-shadow').css({
-                    background: 'url("../img/bdo_shadow_bg.jpg") no-repeat center / 1920px 937px'
+                    background: 'url("img/bdo_shadow_bg.jpg") no-repeat center / 1920px 937px'
                 });
                 $('.title').html('BLACK DESERT');
             }
