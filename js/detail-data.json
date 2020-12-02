@@ -1,0 +1,62 @@
+{
+    "NETFLIX" : {
+        "skills": [
+            "javascript",
+            "jQuery",
+            "SCSS"
+        ],
+        "period": "2020.08 ~ 2020.09",
+        "summary": "기존 Netflix 페이지를 보고 복잡하고 딱딱한 느낌이들어 저만의 스타일로 리뉴얼한 페이지입니다. 레이아웃을 수정하고 자연스러운 인터랙션 효과를 추가하였습니다.",
+        "address": "https://wevoyager.github.io/Netflix/",
+        "imgSrc": [
+            "netflix_home",
+            "netflix_menu",
+            "netflix_info",
+            "netflix_save"
+        ],
+        "function" : {
+            "name" : [
+                "01. 메뉴 및 검색",
+                "02. 상세정보 팝업",
+                "03. 내가 찜한 콘텐츠"
+            ],
+            "content" : [
+                "기존의 검색기능을 메뉴에 추가하였고 버거메뉴 활성화 시 추천콘텐츠들이 표시되고, 검색창에 드라마의 제목이나 장르를 검색하면 해당 키워드에 맞는 콘텐츠가 첫줄에 표시되고 뒤쪽으로 랜덤한 콘텐츠들이 채워집니다.",
+                "콘텐츠를 클릭하면 재생, 저장, 추천기능과 장르, 등장인물, 줄거리, 회차정보가 담긴 팝업창이 표시됩니다. jQuery의 modal플러그인을 활용하였습니다.",
+                "내가 찜한 콘텐츠가 없다면 메세지가 출력되고, 상세정보에서 + 버튼을 누르면 내가 찜한 콘텐츠 페이지에 콘텐츠가 추가됩니다."
+            ]
+        },
+        "nextProject" : {
+            "name" : "BLACK DESERT",
+            "img" : "img/bdo_bg.jpg"
+        }
+    },
+    "BLACK_DESERT" : {
+        "skills": [
+            "javascript",
+            "SCSS"
+        ],
+        "period": "2020.10~ 2020.11",
+        "summary": "평소에 게임을 좋아해 게임과 관련된 페이지를 만들고싶어 제작한 페이지입니다. 검은사막 홈페이지에 있는 이미지와 콘텐츠를 활용하였고 검은사막의 스토리와 캐릭터에 관련된 내용을 볼 수 있습니다.",
+        "address": "https://wevoyager.github.io/BDO/",
+        "imgSrc": [
+            "bdo_home",
+            "bdo_story",
+            "bdo_class"
+        ],
+        "function" : {
+            "name" : [
+                "01. 스토리보기",
+                "02. 캐릭터 및 상세정보"
+            ],
+            "content" : [
+                "JSON을 사용하여 클릭한 탭의 이름과 JSON의 키워드와 일치하는 데이터를 불러와 콘텐츠를 보여줍니다.",
+                "검은사막에 등장하는 캐릭터를 선택하면 상세정보를 확인 할 수 있습니다. 스토리와 마찬가지로 JSON을 활용하였습니다."
+            ]
+        },
+        "nextProject" : {
+            "name" : "NETFLIX",
+            "img" : "img/netflix_bg.jpg"
+        }
+    }
+}
